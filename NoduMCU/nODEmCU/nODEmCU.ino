@@ -19,24 +19,20 @@ void setup() {
  
 void loop() {
  
-
+from_arduino ();
+Serial.println(value_1); 
+Serial.println(value_2); 
+Serial.println(value_3); 
  
 
- 
-
-
-  from_arduino ();
-
-
-   Serial.println(value_1);
- Serial.println(value_2);
-  Serial.println(value_3);
 }
 
 
 
 void from_arduino ()
 {
+
+
 
 
 s.write(5);
